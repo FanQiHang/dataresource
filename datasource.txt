@@ -1,0 +1,23 @@
+1）卡耐基梅隆大学CERT项目组内部威胁数据集（2016），涉及host logs, network logs 和contextual data，共有4000名正常员工的数据和700起内部威胁数据。
+https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=508099
+
+2） UNM数据集，包含常见特权程序的系统调用，同时也包括了不同种类的入侵数据。
+https://www.cs.unm.edu/~immsec/systemcalls.htm
+
+3） ADFA（LD和WD）数据集，记录了Linux和Windows两个操作系统的系统调用数据，包含正常数据和攻击数据。
+https://www.unsw.adfa.edu.au/australian-centre-for-cyber-security/cybersecurity/ADFA-IDS-Datasets/
+
+4） KDD99和NSL-KDD（改进版， 2017）数据集，基于网络流量分析的主要数据集
+http://archive.ics.uci.edu/ml/datasets/unix+user+data
+https://www.unb.ca/cic/datasets/nsl.html
+
+5）阿里云算法大赛数据集（ 2018），本题目提供的数据来自文件（ windows 可执行程序）经过沙箱程序模拟运行后的API指令序列，其中恶意文件的类型有感染型病毒、木马程序、挖矿程序、 DDOS木马、勒索病毒等，包括正常数据在内，总计6亿条。
+https://tianchi.aliyun.com/competition/entrance/231694/information
+
+6） SEA数据集，广泛用于检测内部伪装者，涵盖70多个UNIX系统用户的行为日志，这些数据来自UNIX系统acct机制记录的用户使用命令。
+http://www.schonlau.net/
+
+7） WUIL数据集（ 2014），借助 Windows 中审计工具记录 20 个不同用户浏览文件和目录的行为。为了研究用户知识背景与计算机技能对行为的影响, WUIL 数据集的 20 个用户来自不同的职业, 如学生、高级管理人员、部门秘书等。
+http://homepage.cem.itesm.mx/raulm/wuil-ds/
+paper:The Windows-Users and -Intruder simulations Logs dataset (WUIL): An experimental framework for
+masquerade detection mechanisms
